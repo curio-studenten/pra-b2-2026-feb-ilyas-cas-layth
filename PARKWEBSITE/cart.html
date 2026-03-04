@@ -22,9 +22,40 @@
         <h2>Winkelwagentje</h2>
         <div>
           <span>Dit zijn alle producten die u gaat bestellen. Controleer een laatste keer of alles klopt en ga daarna verder met de grote groene knop.</span>
-          <!-- 
-            Winkelwagen hier
-          -->
+          
+          <table>
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Prijs</th>
+                <th>Aantal</th>
+                <th>Subtotaal</th>
+                <th>Verwijderen</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Toegangsticket Volwassene</td>
+                <td>€ 25,00</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>€ 25,00</td>
+                <td><button type="button">X</button></td>
+              </tr>
+              <tr>
+                <td>Toegangsticket Kind</td>
+                <td>€ 17,50</td>
+                <td><input type="number" value="2" min="1"></td>
+                <td>€ 35,00</td>
+                <td><button type="button">X</button></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3"><strong>Totaal</strong></td>
+                <td colspan="2"><strong>€ 60,00</strong></td>
+              </tr>
+            </tfoot>
+          </table>
           
           <button>Dit is correct, verder naar betaling</button>
         </div>
