@@ -85,6 +85,14 @@ article h2 {
   background-position: center;
   background-size: cover;
   text-align: center;
+
+    /* Witte omlijning om de letters beter leesbaar te maken */
+  text-shadow: 0 0 0 #FCFCFC, 
+               -1px -1px 0 #FCFCFC,
+               1px -1px 0 #FCFCFC,
+               -1px 1px 0 #FCFCFC,
+               1px 1px 0 #FCFCFC;
+
 }
 
 article h2.fun-for-family {
