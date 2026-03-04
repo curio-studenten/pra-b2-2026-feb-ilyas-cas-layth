@@ -228,9 +228,13 @@ footer {
 /* EIGEN LETTERTYPE          */
 /* ========================= */
 @font-face {
-  font-family: 'Heartbeat';
-  src: url('fonts/heartbeat.woff') format('woff'),
-       url('fonts/heartbeat.ttf') format('truetype');
+    font-family: 'Heartbeat';
+    src: url('../fonts/heartbeat.woff2') format('woff2'),
+         url('../fonts/heartbeat.woff') format('woff'),
+         url('../fonts/heartbeat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* zorgt dat tekst direct zichtbaar is en font later geladen wordt */
 }
 
 /* ========================= */
