@@ -210,6 +210,18 @@ footer {
     flex-direction: column;
     align-items: center;s
   }
+
+  @media (max-width: 480px) {
+    /* Elementen die normaal verborgen zijn op grote schermen tonen */
+    .hidden-on-lg {
+        display: block;
+    }
+
+    /* Elementen die normaal zichtbaar zijn op kleine schermen verbergen */
+    .hidden-on-sm {
+        display: none;
+    }
+}
 }
 
 /* ========================= */
