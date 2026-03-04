@@ -129,6 +129,21 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
+/* Stijl voor het opvallende 'Koop nu je tickets' gedeelte */
+.emphasize {
+    border-left: 5px solid #27AE60;         /* dikke groene rand aan de linkerzijde */
+    box-shadow: 1px 0 5px #27AE60;         /* groene schaduw met x-offset 1px, y-offset 0, blur 5px */
+    padding: 1em;                           /* binnenruimte rondom de inhoud */
+    margin: 1em 0;                           /* optioneel: wat ruimte boven en onder */
+    background-color: #fff;                  /* eventueel witte achtergrond voor contrast */
+}
+
+/* Heading binnen .emphasize */
+.emphasize h2 {
+    margin: 0;                               /* alle standaardmarges verwijderd */
+    border-left: none;                       /* geen border aan de linkerzijde */
+    text-align: center;                      /* tekst gecentreerd */
+}
 
 .payment-option {
   height: 64px;
@@ -177,7 +192,7 @@ footer {
 
   .sidy-by-side {
     flex-direction: column;
-    align-items: center;
+    align-items: center;s
   }
 }
 
