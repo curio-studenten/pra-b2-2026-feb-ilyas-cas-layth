@@ -3,9 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DeveloperLand - Het meest leerzame prepark voor het hele gezin!</title>
+  <title>DeveloperLand - Betaling afronden</title>
 
   <link rel="stylesheet" href="styles/main.css">
+
+  <style>
+    /* Alleen voor payment.html: betalingsopties naast elkaar */
+    .side-by-side {
+      display: flex;
+      gap: 20px;                  /* Ruimte tussen de logo's */
+      justify-content: space-between;
+      flex-wrap: wrap;            /* Zorg dat het op kleinere schermen onder elkaar kan */
+      margin-top: 20px;
+    }
+
+    .side-by-side > div {
+      flex: 1 1 150px;            /* Minimaal 150px, kan groeien */
+      text-align: center;
+    }
+
+    .payment-option {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -21,7 +42,9 @@
       <article>
         <h2>Betaling afronden</h2>
         <span>Selecteer de manier waarop u de bestelling wilt betalen.</span>
-        <div class="sidy-by-side">
+
+        <!-- Hier de juiste klasse -->
+        <div class="side-by-side">
           <div>
             <a href="javascript:alert('Dit valt buiten de scope van dit project');">
               <img src="images/ideal-logo-1024.png" alt="Met iDeal betalen" class="payment-option">
@@ -43,13 +66,14 @@
             </a>
           </div>
         </div>
+
       </article>
     </div>
   </main>
   <footer>
     <div class="wrapper">
       <div class="copyright">
-        &copy; 2020 - 2021  DeveloperLand&nbsp;&nbsp;All Rights Reserved
+        &copy; 2020 - 2021 DeveloperLand&nbsp;&nbsp;All Rights Reserved
       </div>
     </div>
   </footer>
