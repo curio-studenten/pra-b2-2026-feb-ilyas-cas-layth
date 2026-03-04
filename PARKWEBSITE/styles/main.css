@@ -137,6 +137,14 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
+
+button:hover {
+    background-color: #219150; /* iets donkerder groen bij hover */
+    transform: translateY(-2px); /* subtiel omhoog bewegen */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* lichte schaduw */
+    transition: all 0.2s ease; /* vloeiende overgang */
+}
+
 /* Stijl voor het opvallende 'Koop nu je tickets' gedeelte */
 .emphasize {
     border-left: 5px solid #27AE60;         /* dikke groene rand aan de linkerzijde */
