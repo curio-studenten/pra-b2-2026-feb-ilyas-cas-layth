@@ -1,75 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DeveloperLand - Betaling afronden</title>
+  <title>DeveloperLand - Bestelling controleren</title>
 
   <link rel="stylesheet" href="styles/main.css">
-
-  <style>
-    /* Alleen voor payment.html: betalingsopties naast elkaar */
-    .side-by-side {
-      display: flex;
-      gap: 20px;                  /* Ruimte tussen de logo's */
-      justify-content: space-between;
-      flex-wrap: wrap;            /* Zorg dat het op kleinere schermen onder elkaar kan */
-      margin-top: 20px;
-    }
-
-    .side-by-side > div {
-      flex: 1 1 150px;            /* Minimaal 150px, kan groeien */
-      text-align: center;
-    }
-
-    .payment-option {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
 </head>
+
 <body>
   <header>
     <div class="header-content">
       <div class="wrapper">
-        <img src="images/logo-big-v3.png" alt="Het logo van DeveloperLand met een draaimolen, kasteel, achtbaan en tot slot een gezin op de voorgrond." class="logo hidden-on-sm">
+        <img src="images/logo-big-v3.png" alt="Het logo van DeveloperLand" class="logo hidden-on-sm">
         <h1 class="hidden-on-lg">DeveloperLand</h1>
       </div>
     </div>
   </header>
+
   <main>
     <div class="wrapper">
       <article>
-        <h2>Betaling afronden</h2>
-        <span>Selecteer de manier waarop u de bestelling wilt betalen.</span>
+        <h2>Controleer uw bestelling</h2>
+        <p>Controleer of alle gegevens correct zijn voordat u verder gaat naar de betaling.</p>
 
-        <!-- Hier de juiste klasse -->
-        <div class="side-by-side">
-          <div>
-            <a href="javascript:alert('Dit valt buiten de scope van dit project');">
-              <img src="images/ideal-logo-1024.png" alt="Met iDeal betalen" class="payment-option">
-            </a>
-          </div>
-          <div>
-            <a href="javascript:alert('Dit valt buiten de scope van dit project');">
-              <img src="images/visa-logo-1024.png" alt="Met Visa betalen" class="payment-option">
-            </a>
-          </div>
-          <div>
-            <a href="javascript:alert('Dit valt buiten de scope van dit project');">
-              <img src="images/mastercard-logo-1024.png" alt="Met Mastercard betalen" class="payment-option">
-            </a>
-          </div>
-          <div>
-            <a href="javascript:alert('Dit valt buiten de scope van dit project');">
-              <img src="images/paypal-logo-1024.png" alt="Met PayPal betalen" class="payment-option">
-            </a>
-          </div>
-        </div>
+        <a href="payment.html">
+          <button type="button">Dit is correct, verder naar betaling</button>
+        </a>
 
       </article>
     </div>
   </main>
+
   <footer>
     <div class="wrapper">
       <div class="copyright">
