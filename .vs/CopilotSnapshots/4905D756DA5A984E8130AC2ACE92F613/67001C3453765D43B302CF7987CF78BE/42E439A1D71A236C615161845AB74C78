@@ -1,0 +1,106 @@
+﻿using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using System.Xml;
+using System.IO;
+
+namespace ticket_17_app_pra_b2
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void KnopUpdateInformatie_Click(object sender, RoutedEventArgs e)
+        {
+            VerwerkWachtrijSensorData();
+            VerwerkAttractieStatusData();
+        }
+
+        private void VerwerkWachtrijSensorData()
+        {
+            string path = FindSensorFile("WachtrijSensoren.xml");
+            if (path == null) { LabelWachtTijdMelding.Text = "Bronbestand niet gevonden"; return; }
+
+            XmlDocument doc = new XmlDocument();
+            doc.Load(path);
+            int tijd = 0;
+            var list = doc.DocumentElement.ChildNodes;
+            for (int i = 0; i < list.Count && i < 12; i++)
+            {
+                if (list[i].InnerText != "True") break;
+                tijd += (i < 2) ? 6 : 4;
+            }
+            LabelWachtTijdMelding.Text = tijd + " minuten";
+        }
+
+        private void VerwerkAttractieStatusData()
+        {
+            string path = FindSensorFile("AttractieStatus.xml");
+            if (path == null)
+            {
+                LabelKar1.Text = "Kar 1: (bron niet gevonden)";
+                LabelKar2.Text = "Kar 2: (bron niet gevonden)";
+                LabelKar3.Text = "Kar 3: (bron niet gevonden)";
+                return;
+            }
+
+            XmlDocument doc = new XmlDocument();
+            doc.Load(path);
+            if (doc.SelectSingleNode("/Status/Kar01") != null)
+                LabelKar1.Text = "Kar 1: " + ConvertStatus(doc.SelectSingleNode("/Status/Kar01").InnerText);
+            if (doc.SelectSingleNode("/Status/Kar02") != null)
+                LabelKar2.Text = "Kar 2: " + ConvertStatus(doc.SelectSingleNode("/Status/Kar02").InnerText);
+            if (doc.SelectSingleNode("/Status/Kar03") != null)
+                LabelKar3.Text = "Kar 3: " + ConvertStatus(doc.SelectSingleNode("/Status/Kar03").InnerText);
+        }
+
+        private string ConvertStatus(string StatusNr)
+        {
+            switch (StatusNr)
+            {
+                case "1": return "uit/instappen";
+                case "2": return "klaar voor vertrek";
+                case "3": return "op avontuur";
+                case "4": return "komt binnen";
+                case "5": return "in onderhoud";
+                default: return "";
+            }
+        }
+
+        private string FindSensorFile(string fileName)
+        {
+            // try several likely locations relative to the running directory or workspace
+            string[] candidates = new string[] {
+                Path.Combine("Assets", "SensorData", fileName),
+                Path.Combine("WACHTRIJAPP", "Assets", "SensorData", fileName),
+                Path.Combine("..", "WACHTRIJAPP", "Assets", "SensorData", fileName),
+                Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "SensorData", fileName),
+                Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "WACHTRIJAPP", "Assets", "SensorData", fileName)
+            };
+
+            foreach (var c in candidates)
+            {
+                try
+                {
+                    string full = Path.GetFullPath(c);
+                    if (File.Exists(full)) return full;
+                }
+                catch { }
+            }
+            return null;
+        }
+    }
+}

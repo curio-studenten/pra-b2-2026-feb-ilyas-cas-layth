@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Status>
+  <!-- waarden: 1=uit/instappen, 2=klaar voor vertrek, 3=op avontuur, 4=komt binnen, 5=in onderhoud -->
+  <Kar01>1</Kar01>
+  <Kar02>2</Kar02>
+  <Kar03>2</Kar03>
+</Status>

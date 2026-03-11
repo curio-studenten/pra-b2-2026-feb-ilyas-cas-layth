@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sensoren>
+  <!-- Debug Hero heeft 12 sensoren. eerste twee staan voor 6 min wachttijd -->
+  <Sensor01>True</Sensor01>
+  <Sensor02>True</Sensor02>
+  <Sensor03>False</Sensor03>
+  <Sensor04>False</Sensor04>
+  <Sensor05>False</Sensor05>
+  <Sensor06>False</Sensor06>
+  <Sensor07>False</Sensor07>
+  <Sensor08>False</Sensor08>
+  <Sensor09>False</Sensor09>
+  <Sensor10>False</Sensor10>
+  <Sensor11>False</Sensor11>
+  <Sensor12>False</Sensor12>
+</Sensoren>

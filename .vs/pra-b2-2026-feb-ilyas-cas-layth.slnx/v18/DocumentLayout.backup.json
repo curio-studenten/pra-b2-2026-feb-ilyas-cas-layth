@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\ticket 17 app pra b2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ticket 17 app pra b2\\ticket 17 app pra b2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\MainWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ticket 17 app pra b2\\MainWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ticket 17 app pra b2\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\WACHTRIJAPP\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WACHTRIJAPP\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\WACHTRIJAPP\\BugsOfHorrorXAML.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WACHTRIJAPP\\BugsOfHorrorXAML.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\WACHTRIJAPP\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WACHTRIJAPP\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\Assets\\SensorData\\WachtrijSensoren.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ticket 17 app pra b2\\Assets\\SensorData\\WachtrijSensoren.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\Assets\\SensorData\\AttractieStatus.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ticket 17 app pra b2\\Assets\\SensorData\\AttractieStatus.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ticket 17 app pra b2.csproj",
+              "DocumentMoniker": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\ticket 17 app pra b2.csproj",
+              "RelativeDocumentMoniker": "ticket 17 app pra b2\\ticket 17 app pra b2.csproj",
+              "ToolTip": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\ticket 17 app pra b2.csproj",
+              "RelativeToolTip": "ticket 17 app pra b2\\ticket 17 app pra b2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-11T09:58:40.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AttractieStatus.xml",
+              "DocumentMoniker": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\Assets\\SensorData\\AttractieStatus.xml",
+              "RelativeDocumentMoniker": "ticket 17 app pra b2\\Assets\\SensorData\\AttractieStatus.xml",
+              "ToolTip": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\Assets\\SensorData\\AttractieStatus.xml",
+              "RelativeToolTip": "ticket 17 app pra b2\\Assets\\SensorData\\AttractieStatus.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-03-11T09:57:30.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WachtrijSensoren.xml",
+              "DocumentMoniker": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\Assets\\SensorData\\WachtrijSensoren.xml",
+              "RelativeDocumentMoniker": "ticket 17 app pra b2\\Assets\\SensorData\\WachtrijSensoren.xml",
+              "ToolTip": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\Assets\\SensorData\\WachtrijSensoren.xml",
+              "RelativeToolTip": "ticket 17 app pra b2\\Assets\\SensorData\\WachtrijSensoren.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-03-11T09:57:28.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ticket 17 app pra b2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ticket 17 app pra b2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T09:53:34.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ticket 17 app pra b2\\MainWindow.xaml",
+              "ToolTip": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\ticket 17 app pra b2\\MainWindow.xaml",
+              "RelativeToolTip": "ticket 17 app pra b2\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T09:53:33.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\WACHTRIJAPP\\MainPage.xaml",
+              "RelativeDocumentMoniker": "WACHTRIJAPP\\MainPage.xaml",
+              "ToolTip": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\WACHTRIJAPP\\MainPage.xaml",
+              "RelativeToolTip": "WACHTRIJAPP\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T08:39:57.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BugsOfHorrorXAML.csproj",
+              "DocumentMoniker": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\WACHTRIJAPP\\BugsOfHorrorXAML.csproj",
+              "RelativeDocumentMoniker": "WACHTRIJAPP\\BugsOfHorrorXAML.csproj",
+              "ToolTip": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\WACHTRIJAPP\\BugsOfHorrorXAML.csproj",
+              "RelativeToolTip": "WACHTRIJAPP\\BugsOfHorrorXAML.csproj",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAMwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-11T08:33:21.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\WACHTRIJAPP\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "WACHTRIJAPP\\MainPage.xaml.cs",
+              "ToolTip": "C:\\laragon\\www\\pra-b2-2026-feb-ilyas-cas-layth\\WACHTRIJAPP\\MainPage.xaml.cs",
+              "RelativeToolTip": "WACHTRIJAPP\\MainPage.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T08:28:54.307Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

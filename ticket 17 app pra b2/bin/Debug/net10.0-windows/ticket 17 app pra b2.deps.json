@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ticket 17 app pra b2/1.0.0": {
+        "runtime": {
+          "ticket 17 app pra b2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ticket 17 app pra b2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

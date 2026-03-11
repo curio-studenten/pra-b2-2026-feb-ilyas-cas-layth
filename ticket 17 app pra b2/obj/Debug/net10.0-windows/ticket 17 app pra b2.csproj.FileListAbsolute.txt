@@ -1,0 +1,21 @@
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\bin\Debug\net10.0-windows\ticket 17 app pra b2.exe
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\bin\Debug\net10.0-windows\ticket 17 app pra b2.deps.json
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\bin\Debug\net10.0-windows\ticket 17 app pra b2.runtimeconfig.json
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\bin\Debug\net10.0-windows\ticket 17 app pra b2.dll
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\bin\Debug\net10.0-windows\ticket 17 app pra b2.pdb
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\App.g.cs
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ticket 17 app pra b2_MarkupCompile.cache
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ticket 17 app pra b2_MarkupCompile.lref
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\MainWindow.baml
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ticket 17 app pra b2.g.resources
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ticket 17 app pra b2.GeneratedMSBuildEditorConfig.editorconfig
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ticket 17 app pra b2.AssemblyInfoInputs.cache
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ticket 17 app pra b2.AssemblyInfo.cs
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ticket 17 app pra b2.csproj.CoreCompileInputs.cache
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ticket 17 app pra b2.sourcelink.json
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ticket 17 app pra b2.dll
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\refint\ticket 17 app pra b2.dll
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ticket 17 app pra b2.pdb
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ticket 17 app pra b2.genruntimeconfig.cache
+C:\laragon\www\pra-b2-2026-feb-ilyas-cas-layth\ticket 17 app pra b2\obj\Debug\net10.0-windows\ref\ticket 17 app pra b2.dll

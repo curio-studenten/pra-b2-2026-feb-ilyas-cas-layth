@@ -30,6 +30,13 @@ namespace BugsOfHorrorXAML
 
         private void KnopUpdateInformatie_Click(object sender, RoutedEventArgs e)
         {
+            // verwerk wachtrij- en attractiestatusdata via losse methodes
+            VerwerkWachtrijSensorData();
+            VerwerkAttractieStatusData();
+        }
+
+        private void VerwerkWachtrijSensorData()
+        {
             // wachttijd uit xml halen en label bijwerken
             XmlDocument doc = new XmlDocument();
 
@@ -42,8 +49,12 @@ namespace BugsOfHorrorXAML
                 tijd += (i < 2) ? 6 : 4;
             }
             LabelWachtTijdMelding.Text = tijd + " minuten";
+        }
 
+        private void VerwerkAttractieStatusData()
+        {
             // karstatus opvragen
+            XmlDocument doc = new XmlDocument();
             doc.Load("Assets\\SensorData\\AttractieStatus.xml");
             if (doc.SelectSingleNode("/Status/Kar01") != null)
                 LabelKar1.Text = "Kar 1: " + ConvertStatus(doc.SelectSingleNode("/Status/Kar01").InnerText);

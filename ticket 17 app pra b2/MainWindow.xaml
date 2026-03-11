@@ -1,0 +1,32 @@
+﻿<Window x:Class="ticket_17_app_pra_b2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ticket_17_app_pra_b2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#FFFFA726" Offset="0.0"/>
+                <GradientStop Color="#FFFFEB3B" Offset="0.5"/>
+                <GradientStop Color="#FF66BB6A" Offset="1.0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <TextBlock x:Name="LabelTitel" HorizontalAlignment="Left" Margin="30,20,0,0" Text="Debug Hero" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Foreground="#FF0A0A0A" FontWeight="Bold"/>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top">
+            <TextBlock x:Name="LabelKar1" Text="Kar 1 ..." FontSize="28" Foreground="#FF0A0A0A"/>
+            <TextBlock x:Name="LabelKar2" Text="Kar 2 ..." FontSize="28" Foreground="#FF0A0A0A"/>
+            <TextBlock x:Name="LabelKar3" Text="Kar 3 ..." FontSize="28" Foreground="#FF0A0A0A"/>
+        </StackPanel>
+
+        <TextBlock x:Name="LabelWachtTijd" HorizontalAlignment="Left" Margin="30,260,0,0" Text="Wachttijd:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="32" Foreground="#FF0A0A0A"/>
+        <TextBlock x:Name="LabelWachtTijdMelding" HorizontalAlignment="Left" Margin="30,310,0,0" Text="0 minuten" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Foreground="#FF0A0A0A"/>
+
+        <Button x:Name="KnopUpdateInformatie" Content="Update informatie" Margin="285,350,255,0" VerticalAlignment="Top" Height="44" Width="260" Click="KnopUpdateInformatie_Click" Background="#FFFFD700" Foreground="#FF0A0A0A" FontSize="16" FontWeight="SemiBold"/>
+
+    </Grid>
+</Window>

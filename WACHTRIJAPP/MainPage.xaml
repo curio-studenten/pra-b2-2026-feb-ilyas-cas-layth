@@ -8,14 +8,28 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="864" Width="1647">
 
-	<Grid x:Name="MainWindow" Background="#FF1E90FF"> <!-- sterk blauw als superheldenthema -->
-		<TextBlock x:Name="LabelTitel" HorizontalAlignment="Left" Margin="60,60,0,0" Text="Debug Hero" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Foreground="White"/>
-		<TextBlock x:Name="LabelKar1" HorizontalAlignment="Left" Margin="65,180,0,0" Text="Kar 1 ..." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Foreground="Yellow"/>
-		<TextBlock x:Name="LabelKar2" HorizontalAlignment="Left" Margin="65,250,0,0" Text="Kar 2 ..." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Foreground="Yellow"/>
-		<TextBlock x:Name="LabelKar3" HorizontalAlignment="Left" Margin="65,320,0,0" Text="Kar 3 ..." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Foreground="Yellow"/>
-		<TextBlock x:Name="LabelWachtTijd" HorizontalAlignment="Left" Margin="60,444,0,0" Text="Wachttijd:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Foreground="White"/>
-		<TextBlock x:Name="LabelWachtTijdMelding" HorizontalAlignment="Left" Margin="60,545,0,0" Text="0 minuten" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Foreground="White"/>
-		<Button x:Name="KnopUpdateInformatie" Content="Update informatie" Margin="65,762,0,0" VerticalAlignment="Top" Height="60" Width="454" Click="KnopUpdateInformatie_Click" Background="Yellow" Foreground="Black"/>
-		<Image x:Name="AttractieLogo" HorizontalAlignment="Left" Height="220" Margin="1280,603,0,0" VerticalAlignment="Top" Width="220" Source="/Assets/Images/DebugHero.png"/>
-	</Grid>
+    <Grid x:Name="MainWindow">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#FF1E90FF" Offset="0.0"/>
+                <GradientStop Color="#FF00BFFF" Offset="0.5"/>
+                <GradientStop Color="#FFFFD700" Offset="1.0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <TextBlock x:Name="LabelTitel" HorizontalAlignment="Left" Margin="60,40,0,0" Text="Debug Hero" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="84" Foreground="#FF0A0A0A" FontWeight="Bold"/>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="65,160,0,0" VerticalAlignment="Top" Spacing="12">
+            <TextBlock x:Name="LabelKar1" Text="Kar 1 ..." FontSize="48" Foreground="#FFFFF59D"/>
+            <TextBlock x:Name="LabelKar2" Text="Kar 2 ..." FontSize="48" Foreground="#FFFFF59D"/>
+            <TextBlock x:Name="LabelKar3" Text="Kar 3 ..." FontSize="48" Foreground="#FFFFF59D"/>
+        </StackPanel>
+
+        <TextBlock x:Name="LabelWachtTijd" HorizontalAlignment="Left" Margin="60,440,0,0" Text="Wachttijd:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Foreground="#FF0A0A0A"/>
+        <TextBlock x:Name="LabelWachtTijdMelding" HorizontalAlignment="Left" Margin="60,540,0,0" Text="0 minuten" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Foreground="#FF0A0A0A"/>
+
+        <Button x:Name="KnopUpdateInformatie" Content="Update informatie" Margin="65,740,0,0" VerticalAlignment="Top" Height="72" Width="520" Click="KnopUpdateInformatie_Click" Background="#FFFFD700" Foreground="#FF0A0A0A" FontSize="20" FontWeight="SemiBold"/>
+
+        <Image x:Name="AttractieLogo" HorizontalAlignment="Left" Height="220" Margin="1280,603,0,0" VerticalAlignment="Top" Width="220" Source="/Assets/Images/DebugHero.png"/>
+    </Grid>
 </Page>
