@@ -37,12 +37,10 @@ namespace BugsOfHorrorXAML
 
         //Bereken de wachtrij tijd
         private void VerwerkWachtrijSensorData()
-		{
-            //  Roep de methode aan welke de wachttijd berekend.
-            int Wachttijd = BerekenWachtTijd();
-
-            //  Gebruik de wachttijd om de tekst in de label 'labelWachttijdMelding' aan te passen.
-            this.LabelWachtTijdMelding.Text = $"{Wachttijd} minuten";
+        {
+            // roep de methode aan die de wachttijd berekent op basis van de sensoren
+            int wachttijd = BerekenWachtTijd();
+            this.LabelWachtTijdMelding.Text = $"{wachttijd} minuten";
         }
 
         //Bepaal de status van de attractie
@@ -56,12 +54,17 @@ namespace BugsOfHorrorXAML
             //  Converteer de statuc-code in een status-beschrijving.
             //  Gebruik de status-beschrijving om de tekst in de label 'labelKar1' aan te passen.
             string node1 = doc.DocumentElement.SelectSingleNode("/Status/Kar01").InnerText;
-            string status1 = ConvertStatus(node1);
-            this.LabelKar1.Text = $"Kar 1: {status1}";
+            this.LabelKar1.Text = $"Kar 1: {ConvertStatus(node1)}";
 
             string node2 = doc.DocumentElement.SelectSingleNode("/Status/Kar02").InnerText;
-            string status2 = ConvertStatus(node2);
-            this.LabelKar2.Text = $"Kar 2: {status2}";
+            this.LabelKar2.Text = $"Kar 2: {ConvertStatus(node2)}";
+
+            // Debug Hero kent drie karretjes, maar laat alleen iets zien als element aanwezig is
+            var node3 = doc.DocumentElement.SelectSingleNode("/Status/Kar03");
+            if (node3 != null)
+            {
+                this.LabelKar3.Text = $"Kar 3: {ConvertStatus(node3.InnerText)}";
+            }
         }
 
         private int BerekenWachtTijd()
